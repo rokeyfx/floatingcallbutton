@@ -2,7 +2,7 @@ setTimeout(function(){
 
 	var link = document.createElement('link'); 
 	link.rel = 'stylesheet';  
-	link.type = 'text/css'; 
+	link.type = 'application/javascript;charset=utf-8'; 
 	link.href = 'https://raw.githubusercontent.com/rokeyfx/floatingcallbutton/master/floatingCallNow.css';  
 	document.getElementsByTagName('body')[0].appendChild(link);
 
